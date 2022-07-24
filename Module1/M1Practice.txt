@@ -1,0 +1,22 @@
+This document and the problem solution can be found in the GitHub repository that will be used for the graded programming assignment.
+
+COP2805C Module 1 Practice Exercise Instructions
+5/11/22
+
+Design and implement a program which uses a lambda expression to implement a SAM interface containing a method which sums the elements of an integer array and returns the result. Display the array and the result (see Sample Output, below).
+
+Then design a class which includes a method to read a CSV file containing comma-separated integers and use your lambda to print the sum of those values.
+
+No constructors, accessors, or mutators are required for this problem, you only need to provide classes containing static methods (one class needs a main method). Be sure to include an ID header in your solution, indent and align correctly, include descriptive comments. No submission is required for this assignment, try it yourself and then compare with the posted solution.
+
+Here is the interface to implement, include it in your solution above the public class containing your main method.
+
+interface ArraySummer {
+    // sum method sums an array of integers
+    public int summer(Integer[] array);
+}
+
+Sample output:
+
+The sum of [1, 3, 5, 7, 9] is 25       <<< test array
+The sum of [1, 3, 5, 7, 9] is 25       <<< CSV file contents
